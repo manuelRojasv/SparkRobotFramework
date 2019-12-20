@@ -5,7 +5,7 @@ In order to run the test by using Pycharm following the steps described bellow:
 
 Open Pycharm
 -Install Robot Framework by using the command line in the console: pip install robotframework
--Install Selenium library by using the command line in the console: pip install robotframework-selenium2library
+-------Install Selenium library by using the command line in the console: pip install robotframework-selenium2library
 
 Create a new file within the Project, be sure to use the extension .robot
 
