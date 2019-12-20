@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  This main used libraries go here
+Documentation  Libraries go here
 Library  Selenium2Library
 Library  String
 *** Variables ***
@@ -7,7 +7,7 @@ ${Link}  https://sparkdigital.com
 ${Browser}  gc
 *** Test Cases ***
 Test case_001_Get thirth title from Clients page
-    [Documentation]  Type the test cases here
+    [Documentation]  The test case verify the tirth elemnt within the Clients page-Client List
     Open Browser  ${Link}  ${Browser}
     Click Link  Xpath = //a[.='Clients']
     Mouse Over  css= div.view-display-id-embed_1 li:nth-of-type(3)
